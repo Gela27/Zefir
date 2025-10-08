@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Салон красоты "Зефир"</title>
+
+    <link rel="icon" href="im/icon.ico" sizes="any"> <!-- Основной .ico файл -->
+    <link rel="icon" href="im/icon1.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="im/icon2.png" type="image/png" sizes="32x32">
+
+    <!-- Для лучшей поддержки разных устройств и современных браузеров -->
+    <link rel="apple-touch-icon" sizes="180x180" href="im/result_icon.png">
+
+    <!-- SVG для современных браузеров -->
+    <link rel="icon" href="im/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <header>
+  <div class="fixed-top header-custom">
+    <div class="container">
+      <div class="row align-items-center py-3"> <!-- Увеличиваем отступы по вертикали -->
+        <div class="col-12 col-md-6">
+          <a href="#" class="brand">С любовью, Зефир</a>
+        </div>
+        <div class="col-12 col-md-6 d-none d-md-block text-end">
+          <nav>
+            <ul class="nav-menu">
+              <li><a href="AboutUs.html" >Главная</a></li>
+              <li><a href="BasicServices.html"class="active">Услуги</a></li>
+              <li><a href="Masters.html">Мастера</a></li>
+              <li><a href="TheEnd.html">Напишите нам</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Мобильное меню -->
+        <div class="col-12 d-md-none">
+          <button class="menu-toggle" onclick="document.querySelector('.nav-menu-mobile').classList.toggle('open')">&#9776;</button>
+          <ul class="nav-menu-mobile">
+            <li><a href="AboutUs.html" >Главная</a></li>
+            <li><a href="BasicServices.html"class="active">Услуги</a></li>
+            <li><a href="Masters.html">Мастера</a></li>
+            <li><a href="TheEnd.html">Напишите нам</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="property1">
+    <div class="home">
+        <h1>Стрижки</h1>
+        <ul>
+            <li>Женские: <span>от 1000 руб.</span></li>
+            <li>Мужские: <span>1200 руб.</span></li>
+            <li>Детские: <span>950 руб.</span></li>
+            <li>Стрижка челки: <span>350-550 руб.</span></li>
+        </ul>
+
+        <h1>Окрашивание</h1>
+        <ul>
+            <li>Тотал-блонд: <span>от 4500 руб.</span></li>
+            <li>Airtouch: <span>от 9500 до 20000руб.</span></li>
+            <li>Сложные окрашивания: <span>от 8500 руб.</span></li>
+            <li>Мелирование: <span>от 3500 руб.</span></li>
+            <li>Тонирование: <span>от 4500 руб.</span></li>
+            <li>Окрашивание в один тон: <span>от 4700 руб.</span></li>
+            <li>Контуринг: <span>от 5500-7500 руб.</span></li>
+            <li>Абсолютное счастье для волос (уход): <span>от 2500-7497 руб.</span></li>
+        </ul>
+
+        <h1>Прочее</h1>
+        <ul>
+            <li>Укладки: <span>от 550 руб.</span></li>
+            <li>Макияж: <span>от 800 руб.</span></li>
+            <li>Прически: <span>от 1350 руб.</span></li>
+        </ul>
+
+       <button class="btn btn-pik" type="button" onclick="history.back();">Назад</button>
+    </div> 
+</section>
+
+
+    
+
+
+<footer>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            
+            <div class="col-md-10 text-center">
+                <div class="d-flex justify-content-around"> 
+                    <div class="footer-item">
+                        <h5>Время работы</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Пн-Вс 10:00–20:00</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h5>Соц.сети</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="https://vk.com/public53497046">ВКонтакте</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h5>Контакты</h5>
+                        <address>
+                            г.Югорск, Студенческая ул., 20<br>
+                            <abbr title="Phone">Телефон:</abbr> 
+                            +7 (922) 780-00-87
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 text-center text-md-end my-3 my-md-0">
+                <p class="copyright-text">&copy; 2025</p>
+            </div>
+        </div> 
+    </div> 
+</footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+     <script src="js/card.js"></script>
+</body>
+</html>
